@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    background-color: black;
+}
+.head{
+    background-color: #111827;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+.navigation{
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    background-color: #111827;
+    font-size: 15px;
+    font-weight: bold;
+}
+            
+.home{
+    padding: 10px;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+}
+.about{
+    padding: 10px;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+}
+.skills{
+    padding: 10px;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+}
+.coursework{
+    padding: 10px;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+}
+.projects{
+    padding: 10px;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+}
+.contact{
+    padding: 10px;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+} 
+.img{
+    width: 20%;
+    margin: 70px;
+    border-radius: 50%;
+    float: right;
+    border: 3px solid #3b82f6;
+    box-shadow: 0 0 20px #3b82f6;
+                
+}  
+.name{
+    color: #3b82f6;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.clg{
+    color: #f1f5f9;
+    font-size: 30px;
+    padding: 15px;
+    margin-left: 30px;
+}
+.me{
+    color: #9ca3af;
+    font-size: 23px;
+    padding: 15px;
+    width: 60%;
+    margin-left: 30px;
+}
+@media(max-width:600px){
+    .img{
+        width: 60%;
+    }
+    .navigation{
+        display: block;
+        align-items: center;
+    }
+    .home{
+        display: block;
+    }
+    .about{
+        display: block;
+    }
+    .skills{
+        display: block;
+    }
+    .coursework{
+        display: block;
+    }
+    .projects{
+        display: block;
+    }
+    .contact{
+        display: block;
+    }
+    .para{
+        text-align: center;
+    }
+    .me{
+    font-size: 20px;
+    width: fit-content;
+    }
+}
+.home:hover{
+    color: #3b82f6;
+    cursor: pointer;
+}
+.about:hover{
+    color: #3b82f6;
+    cursor: pointer;
+}
+.skills:hover{
+    color: #3b82f6;
+    cursor: pointer;
+}
+.coursework:hover{
+    color: #3b82f6;
+    cursor: pointer;
+}
+.projects:hover{
+    color: #3b82f6;
+    cursor: pointer;
+}
+.contact:hover{
+    color: #3b82f6;
+    cursor: pointer;
+}
+.aboutme{
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.aboutmepara{
+    color: black;
+    width: 87%;
+    margin: auto;
+    font-size: 17px;
+}
+.cwhead{
+    color: white;
+    margin: 10px;
+}
+.list{
+    color: lightgray;
+}
+.contacthead{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.contactpara{
+    text-align: center;
+    padding: 5px;
+}
+.c{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.gicon{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+.lnicon{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+.giticon{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+.icon{
+    padding-top: 70px;
+}
+.skilllist{
+    color: aliceblue;
+}
+.p{
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 10px;
+}
